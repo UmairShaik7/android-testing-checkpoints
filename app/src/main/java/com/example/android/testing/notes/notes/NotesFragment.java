@@ -47,20 +47,13 @@ import static com.google.common.base.Preconditions.checkNotNull;
 /**
  * Display a grid of {@link Note}s
  */
-public class NotesFragment extends Fragment implements NotesContract.View {
+public class NotesFragment extends Fragment implements NotesContract.View, NoteItemListener {
 
     private static final int REQUEST_ADD_NOTE = 1;
 
     private NotesContract.UserActionsListener mActionsListener;
-    /**
-     * Listener for clicks on notes in the RecyclerView.
-     */
-    NoteItemListener mItemListener = new NoteItemListener() {
-        @Override
-        public void onNoteClick(Note clickedNote) {
-            mActionsListener.openNoteDetails(clickedNote);
-        }
-    };
+
+
     private NotesAdapter mListAdapter;
 
     public NotesFragment() {
@@ -74,7 +67,7 @@ public class NotesFragment extends Fragment implements NotesContract.View {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mListAdapter = new NotesAdapter(new ArrayList<Note>(0), mItemListener);
+        mListAdapter = new NotesAdapter(new ArrayList<Note>(0), this);
         mActionsListener = new NotesPresenter(Injection.provideNotesRepository(), this);
     }
 
@@ -179,11 +172,11 @@ public class NotesFragment extends Fragment implements NotesContract.View {
         startActivity(intent);
     }
 
-
-    public interface NoteItemListener {
-
-        void onNoteClick(Note clickedNote);
+    @Override
+    public void onNoteClick(Note clickedNote) {
+        mActionsListener.openNoteDetails(clickedNote);
     }
+
 
     private static class NotesAdapter extends RecyclerView.Adapter<NotesAdapter.ViewHolder> {
 
