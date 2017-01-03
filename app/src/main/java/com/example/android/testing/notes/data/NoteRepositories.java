@@ -22,11 +22,11 @@ import static com.google.common.base.Preconditions.checkNotNull;
 
 public class NoteRepositories {
 
+    private static NotesRepository repository = null;
+
     private NoteRepositories() {
         // no instance
     }
-
-    private static NotesRepository repository = null;
 
     public synchronized static NotesRepository getInMemoryRepoInstance(@NonNull NotesServiceApi notesServiceApi) {
         checkNotNull(notesServiceApi);
