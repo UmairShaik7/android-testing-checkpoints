@@ -65,12 +65,12 @@ public class AddNoteFragment extends Fragment implements AddNoteContract.View {
 
     private ImageView mImageThumbnail;
 
-    public AddNoteFragment() {
-        // Required empty public constructor
-    }
-
     public static AddNoteFragment newInstance() {
         return new AddNoteFragment();
+    }
+
+    public AddNoteFragment() {
+        // Required empty public constructor
     }
 
     @Override

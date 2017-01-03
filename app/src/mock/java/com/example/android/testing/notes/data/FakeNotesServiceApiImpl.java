@@ -31,13 +31,6 @@ public class FakeNotesServiceApiImpl implements NotesServiceApi {
     // TODO replace this with a new test specific data set.
     private static final ArrayMap<String, Note> NOTES_SERVICE_DATA = new ArrayMap();
 
-    @VisibleForTesting
-    public static void addNotes(Note... notes) {
-        for (Note note : notes) {
-            NOTES_SERVICE_DATA.put(note.getId(), note);
-        }
-    }
-
     @Override
     public void getAllNotes(NotesServiceCallback<List<Note>> callback) {
         callback.onLoaded(Lists.newArrayList(NOTES_SERVICE_DATA.values()));
@@ -52,5 +45,12 @@ public class FakeNotesServiceApiImpl implements NotesServiceApi {
     @Override
     public void saveNote(Note note) {
         NOTES_SERVICE_DATA.put(note.getId(), note);
+    }
+
+    @VisibleForTesting
+    public static void addNotes(Note... notes) {
+        for (Note note : notes) {
+            NOTES_SERVICE_DATA.put(note.getId(), note);
+        }
     }
 }

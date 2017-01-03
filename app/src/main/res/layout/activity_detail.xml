@@ -28,8 +28,8 @@
         android:layout_height="wrap_content"
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-        app:theme="@style/Toolbar" />
+        app:theme="@style/Toolbar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
     <FrameLayout
         android:id="@+id/contentFrame"

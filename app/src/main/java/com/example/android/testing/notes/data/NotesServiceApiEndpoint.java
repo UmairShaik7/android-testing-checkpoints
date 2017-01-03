@@ -24,13 +24,13 @@ import android.support.v4.util.ArrayMap;
  */
 public final class NotesServiceApiEndpoint {
 
-    private final static ArrayMap<String, Note> DATA;
-
     static {
         DATA = new ArrayMap(2);
         addNote("Oh yes!", "I demand trial by Unit testing", null);
         addNote("Espresso", "UI Testing for Android", null);
     }
+
+    private final static ArrayMap<String, Note> DATA;
 
     private static void addNote(String title, String description, String imageUrl) {
         Note newNote = new Note(title, description, imageUrl);

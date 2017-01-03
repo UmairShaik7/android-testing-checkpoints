@@ -25,14 +25,6 @@ import java.util.List;
  */
 public interface NotesRepository {
 
-    void getNotes(@NonNull LoadNotesCallback callback);
-
-    void getNote(@NonNull String noteId, @NonNull GetNoteCallback callback);
-
-    void saveNote(@NonNull Note note);
-
-    void refreshData();
-
     interface LoadNotesCallback {
 
         void onNotesLoaded(List<Note> notes);
@@ -42,5 +34,13 @@ public interface NotesRepository {
 
         void onNoteLoaded(Note note);
     }
+
+    void getNotes(@NonNull LoadNotesCallback callback);
+
+    void getNote(@NonNull String noteId, @NonNull GetNoteCallback callback);
+
+    void saveNote(@NonNull Note note);
+
+    void refreshData();
 
 }

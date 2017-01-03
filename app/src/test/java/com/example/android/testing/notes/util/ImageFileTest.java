@@ -45,7 +45,7 @@ import static org.powermock.api.mockito.PowerMockito.when;
  * dependencies into android.jar, but sometimes they are inevitable. Usually using a wrapper class
  * or using a mocking framework like Mockito works fine, but there are situations where these
  * frameworks fall short, for instance when working with static util classes in the android.jar.
- * <p>
+ *
  * <p>
  * To work around that limitation this test uses Powermockito, a library which adds support for
  * mocking static methods to Mockito. Powermockito should be used with care since it is normally a

@@ -52,15 +52,7 @@ public class NotesFragment extends Fragment implements NotesContract.View {
     private static final int REQUEST_ADD_NOTE = 1;
 
     private NotesContract.UserActionsListener mActionsListener;
-    /**
-     * Listener for clicks on notes in the RecyclerView.
-     */
-    NoteItemListener mItemListener = new NoteItemListener() {
-        @Override
-        public void onNoteClick(Note clickedNote) {
-            mActionsListener.openNoteDetails(clickedNote);
-        }
-    };
+
     private NotesAdapter mListAdapter;
 
     public NotesFragment() {
@@ -141,6 +133,16 @@ public class NotesFragment extends Fragment implements NotesContract.View {
         return root;
     }
 
+    /**
+     * Listener for clicks on notes in the RecyclerView.
+     */
+    NoteItemListener mItemListener = new NoteItemListener() {
+        @Override
+        public void onNoteClick(Note clickedNote) {
+            mActionsListener.openNoteDetails(clickedNote);
+        }
+    };
+
     @Override
     public void setProgressIndicator(final boolean active) {
 
@@ -179,11 +181,6 @@ public class NotesFragment extends Fragment implements NotesContract.View {
         startActivity(intent);
     }
 
-
-    public interface NoteItemListener {
-
-        void onNoteClick(Note clickedNote);
-    }
 
     private static class NotesAdapter extends RecyclerView.Adapter<NotesAdapter.ViewHolder> {
 
@@ -253,6 +250,11 @@ public class NotesFragment extends Fragment implements NotesContract.View {
 
             }
         }
+    }
+
+    public interface NoteItemListener {
+
+        void onNoteClick(Note clickedNote);
     }
 
 }

@@ -28,8 +28,8 @@
         android:layout_height="wrap_content"
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-        app:theme="@style/Toolbar" />
+        app:theme="@style/Toolbar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
     <ImageView
         android:id="@+id/no_statistics_placeholder"
@@ -42,10 +42,10 @@
         android:id="@+id/no_statistics"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/no_statistics_placeholder"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_centerInParent="true"
+        android:layout_below="@id/no_statistics_placeholder"
         android:layout_marginTop="12dp"
-        android:text="@string/no_statistics_available"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:text="@string/no_statistics_available" />
 
 </RelativeLayout>
