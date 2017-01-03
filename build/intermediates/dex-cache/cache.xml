@@ -3,21 +3,21 @@
 
     <item
         is-multidex="false"
-        jar="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jar="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/pre-dexed/mock/debug/internal_impl-25.0.1_fa6f130a5c0014c252c504a76fa99aef4e350a03.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
         sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
-        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/pre-dexed/mock/debug/com.android.support-support-core-utils-25.0.1_3406845cadfd99d2a461108e0762f7761de17c4b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/pre-dexed/mock/debug/internal_impl-25.0.1_d0aa5138998845f34b5bac69ad9aa5a83ed06ef2.jar" />
+        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/pre-dexed/mock/debug/com.android.support-support-core-utils-25.0.1_6eea8cb9d76822a6ce0bc5fdc303e276a1af0c80.jar" />
     </item>
     <item
         is-multidex="false"
@@ -26,16 +26,7 @@
         optimize="true"
         revision="25.0.1"
         sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
-        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/pre-dexed/mock/debug/glide-3.6.1_37050bfc5bb5c98b7ab04cc53c1c5fa59e14e0b0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
-        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/pre-dexed/mock/debug/com.android.support-recyclerview-v7-25.0.1_b2cf8827f9466368ca6fecafa9a2d6f767295d04.jar" />
+        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/pre-dexed/mock/debug/glide-3.6.1_37050bfc5bb5c98b7ab04cc53c1c5fa59e14e0b0.jar" />
     </item>
     <item
         is-multidex="false"
@@ -44,133 +35,115 @@
         optimize="true"
         revision="25.0.1"
         sha1="cce0823396aa693798f8882e64213b1772032b09">
-        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/pre-dexed/mock/debug/guava-18.0_e11ced1631feb7c9800790c98fd765d3bed1b86c.jar" />
+        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/pre-dexed/mock/debug/guava-18.0_e11ced1631feb7c9800790c98fd765d3bed1b86c.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jar="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/exploded-aar/com.android.support.test.espresso/espresso-idling-resource/2.2.2/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
-        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
-        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/pre-dexed/mock/debug/com.android.support-appcompat-v7-25.0.1_597b0ce0590c65e2e608052b6d176d32a14c21bc.jar" />
+        sha1="a890ee8445927649d9ed50f625a315d8758688be">
+        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/pre-dexed/mock/debug/com.android.support.test.espresso-espresso-idling-resource-2.2.2_d33f8f202a816ae607b0e89914cf41e02a013f44.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/umshaik/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.6.1/86b122e640af09b0723e1fa44083c354ba6d9089/glide-3.6.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
-        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/pre-dexed/mock/debug/glide-3.6.1_37050bfc5bb5c98b7ab04cc53c1c5fa59e14e0b0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/com/google/guava/guava/18.0/guava-18.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="cce0823396aa693798f8882e64213b1772032b09">
-        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/pre-dexed/mock/debug/guava-18.0_e11ced1631feb7c9800790c98fd765d3bed1b86c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/pre-dexed/mock/debug/com.android.support-support-v4-25.0.1_182ff56d8b548d61ef3dafd880585b8731a8d78b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/pre-dexed/mock/debug/com.android.support-support-fragment-25.0.1_cb0c83e94c2d67aabfcfcc0e82b2801a03e4a12f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jar="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
         sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/pre-dexed/mock/debug/internal_impl-25.0.1_4e6a757c341254b037163c515ecea45f3359f78f.jar" />
+        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/pre-dexed/mock/debug/internal_impl-25.0.1_03f8a0b08a91688d7fa09b1ef9621ea48c3c39ed.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jar="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
-        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/pre-dexed/mock/debug/com.android.support-support-core-ui-25.0.1_a61304f096b3ce881116c0905bb1232e561fa3a5.jar" />
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/pre-dexed/mock/debug/internal_impl-25.0.1_4e411064f12160f599a5eee09265aeb99ccf7311.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/exploded-aar/com.android.support.test.espresso/espresso-idling-resource/2.2.2/jars/classes.jar"
+        jar="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
-        sha1="a890ee8445927649d9ed50f625a315d8758688be">
-        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/pre-dexed/mock/debug/com.android.support.test.espresso-espresso-idling-resource-2.2.2_53dd39edf13814366b530fcd5ebb5ebe0548af9e.jar" />
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/pre-dexed/mock/debug/com.android.support-recyclerview-v7-25.0.1_4b24e5719b997b476e5dc57de8f2a99ec997142c.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jar="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/pre-dexed/mock/debug/internal_impl-25.0.1_89aa87e36d2089cf2fa244a78eb0f65c6b914bf7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/pre-dexed/mock/debug/com.android.support-transition-25.0.1_c0e68d84bcd975ffbde13dfbf075c2fdcaecedd0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/pre-dexed/mock/debug/com.android.support-support-fragment-25.0.1_94d4df98bb11c804e01e413a2faed24ad6133119.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/pre-dexed/mock/debug/com.android.support-appcompat-v7-25.0.1_2c01de76cff792f63aa015226543d4c92dfc4dab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/pre-dexed/mock/debug/com.android.support-support-v4-25.0.1_a5b491f4a600eca4a979dbc6bda888af0653e59e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
         sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/pre-dexed/mock/debug/com.android.support-animated-vector-drawable-25.0.1_086878713a23fd80eabb4ec8af74626bb9a705f6.jar" />
+        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/pre-dexed/mock/debug/com.android.support-animated-vector-drawable-25.0.1_18b54875b483d7b3fab1bdc9ba84de0f60411dff.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/pre-dexed/mock/debug/com.android.support-support-vector-drawable-25.0.1_4eb3d6c5a8c05c027ccd6c4b36229b2444d0211d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/pre-dexed/mock/debug/com.android.support-support-media-compat-25.0.1_f6b46ed1685e56664da708741cccb3e08c88aa66.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/exploded-aar/com.android.support.test.espresso/espresso-idling-resource/2.2.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="a890ee8445927649d9ed50f625a315d8758688be">
-        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/pre-dexed/mock/debug/com.android.support.test.espresso-espresso-idling-resource-2.2.2_53dd39edf13814366b530fcd5ebb5ebe0548af9e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
-        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/pre-dexed/mock/debug/com.android.support-cardview-v7-25.0.1_58290a7bbde43fe1df33c6de2b4a72cb9064f180.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jar="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
         sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/pre-dexed/mock/debug/com.android.support-support-compat-25.0.1_173ea39b6c59c7e2662937e727ff7d427292ad55.jar" />
+        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/pre-dexed/mock/debug/com.android.support-support-compat-25.0.1_de1a9466b3d09943d2b84df2b7950ca003bdcb30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/pre-dexed/mock/debug/com.android.support-design-25.0.1_e42111ed550db7cab4f6880dea7b77644018f692.jar" />
     </item>
     <item
         is-multidex="false"
@@ -179,52 +152,52 @@
         optimize="true"
         revision="25.0.1"
         sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
-        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/pre-dexed/mock/debug/support-annotations-25.0.1_99e8f40e40cdbf9d0fe564262365e27032acc59c.jar" />
+        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/pre-dexed/mock/debug/support-annotations-25.0.1_99e8f40e40cdbf9d0fe564262365e27032acc59c.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jar="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/pre-dexed/mock/debug/internal_impl-25.0.1_a56aa5e9d83d905d279b1907f5b2d79119834eb2.jar" />
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/pre-dexed/mock/debug/com.android.support-support-vector-drawable-25.0.1_92165e0b1bc8132eb9be2f29b28cc6429860eca2.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
-        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/pre-dexed/mock/debug/com.android.support-transition-25.0.1_85849a5b909ffc3b044db776ad509a969ac9fbf6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jar="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
         sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/pre-dexed/mock/debug/internal_impl-25.0.1_f1327b5139381e0eb47f2dcba3509f5a78e37bda.jar" />
+        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/pre-dexed/mock/debug/internal_impl-25.0.1_7946daf73754d87872b2a2d21fe509e204243b8e.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jar="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/pre-dexed/mock/debug/internal_impl-25.0.1_321187e409cbe1fc6070878bdc79c055291bd308.jar" />
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/pre-dexed/mock/debug/com.android.support-support-media-compat-25.0.1_70c37c4ede21f308ec4af6d70c3730052262c00e.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/jars/classes.jar"
+        jar="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
-        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
-        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/step-1-5/app/build/intermediates/pre-dexed/mock/debug/com.android.support-design-25.0.1_289803228aa69e3b35bb2f13593d2d49316f9b36.jar" />
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/pre-dexed/mock/debug/com.android.support-cardview-v7-25.0.1_89c5c0cfbeadc987f5b97ba256e4fcf12f653dab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/umshaik/Documents/android-testing-checkpoints/app/build/intermediates/pre-dexed/mock/debug/com.android.support-support-core-ui-25.0.1_8387da8d7dc1e0a5e14f6d069bb26c1cb2a72b66.jar" />
     </item>
 
 </items>
